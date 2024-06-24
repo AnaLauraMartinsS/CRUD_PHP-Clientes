@@ -1,0 +1,39 @@
+body {
+    background-color: #2c2c2c;
+    color: #f8f9fa;
+}
+
+.card {
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    color: #f8f9fa;
+}
+
+.card-header {
+    background-color: #5e60ce;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-control, .form-check-input, .btn {
+    background-color: #2c2c2c;
+    color: #f8f9fa;
+    border: 1px solid #5e60ce;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+}
+
+.btn-dark {
+    background-color: #5e60ce;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #4b4ba8;
+}
